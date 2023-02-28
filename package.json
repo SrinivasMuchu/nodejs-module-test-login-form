@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-login-form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev":"nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cli-color": "^2.0.3",
+    "connect-mongodb-session": "^3.1.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.0",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7",
+    "router": "^1.3.8",
+    "validator": "^13.9.0"
+  }
+}
